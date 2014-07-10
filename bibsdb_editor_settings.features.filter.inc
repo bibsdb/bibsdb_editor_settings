@@ -41,11 +41,6 @@ function bibsdb_editor_settings_filter_default_formats() {
         'status' => 1,
         'settings' => array(),
       ),
-      'filter_autop' => array(
-        'weight' => -44,
-        'status' => 1,
-        'settings' => array(),
-      ),
       'filter_url' => array(
         'weight' => -43,
         'status' => 1,
