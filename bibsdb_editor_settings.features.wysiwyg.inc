@@ -62,9 +62,7 @@ function bibsdb_editor_settings_wysiwyg_default_profiles() {
       'css_classes' => 'Brødtekst=p
 Overskrift - stor=h4
 Overskrift - middel=h5
-Overskrift - lille=h6
-Infoboks overskrift - grå=h4.bibsdb-infobox-header-gray 
-Infoboks brødtekst - grå=p.bibsdb-infobox-body-gray ',
+Overskrift - lille=h6',
     ),
   );
 

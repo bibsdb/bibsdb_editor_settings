@@ -1,14 +1,14 @@
 name = Bibsdb Editor Settings
 core = 7.x
 package = Bibsdb
-php = 5.2.4
 dependencies[] = ckeditor_link
 dependencies[] = features
 dependencies[] = filter
 dependencies[] = image_resize_filter
 dependencies[] = media_wysiwyg
 dependencies[] = wysiwyg
-features[features_api][] = api:1
+features[features_api][] = api:2
 features[filter][] = html
 features[user_permission][] = access ckeditor link
+features[user_permission][] = use text format html
 features[wysiwyg][] = html
