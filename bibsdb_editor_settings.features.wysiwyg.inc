@@ -57,7 +57,7 @@ function bibsdb_editor_settings_wysiwyg_default_profiles() {
       'apply_source_formatting' => 1,
       'paste_auto_cleanup_on_paste' => 0,
       'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
-      'css_setting' => 'self',
+      'css_setting' => 'none',
       'css_path' => 'http://betabib.sonderborg.dk/profiles/ding2/themes/ddbasic/css/ddbasic.styles.css, %b%t/css/bibsdb.styles.css, %b%t/css/bibsdb.editor.css',
       'css_classes' => 'Brødtekst=p
 Overskrift - stor=h4
