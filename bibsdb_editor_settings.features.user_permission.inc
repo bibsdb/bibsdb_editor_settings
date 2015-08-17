@@ -13,12 +13,7 @@ function bibsdb_editor_settings_user_default_permissions() {
   // Exported permission: 'access ckeditor link'.
   $permissions['access ckeditor link'] = array(
     'name' => 'access ckeditor link',
-    'roles' => array(
-      'editor' => 'editor',
-      'local administrator' => 'local administrator',
-      'local editor' => 'local editor',
-      'staff' => 'staff',
-    ),
+    'roles' => array(),
     'module' => 'ckeditor_link',
   );
 
@@ -26,10 +21,11 @@ function bibsdb_editor_settings_user_default_permissions() {
   $permissions['use text format html'] = array(
     'name' => 'use text format html',
     'roles' => array(
+      'administrators' => 'administrators',
       'editor' => 'editor',
+      'guest blogger' => 'guest blogger',
       'local administrator' => 'local administrator',
       'local editor' => 'local editor',
-      'staff' => 'staff',
     ),
     'module' => 'filter',
   );
