@@ -20,7 +20,7 @@ function bibsdb_editor_settings_wysiwyg_default_profiles() {
       'show_toggle' => 1,
       'add_to_summaries' => 1,
       'theme' => 'advanced',
-      'language' => 'en',
+      'language' => 'da',
       'buttons' => array(
         'default' => array(
           'Bold' => 1,
@@ -37,8 +37,6 @@ function bibsdb_editor_settings_wysiwyg_default_profiles() {
           'HorizontalRule' => 1,
           'Cut' => 1,
           'Copy' => 1,
-          'Paste' => 1,
-          'PasteText' => 1,
           'PasteFromWord' => 1,
           'ShowBlocks' => 1,
           'RemoveFormat' => 1,
@@ -58,9 +56,9 @@ function bibsdb_editor_settings_wysiwyg_default_profiles() {
       'toolbarLocation' => 'top',
       'resize_enabled' => 1,
       'default_toolbar_grouping' => 1,
-      'simple_source_formatting' => 1,
+      'simple_source_formatting' => 0,
       'acf_mode' => 0,
-      'acf_allowed_content' => '',
+      'acf_allowed_content' => 'config.disallowedContent = \'h4\';',
       'css_setting' => 'self',
       'css_path' => '/profiles/ding2/themes/ddbasic/css/ddbasic.wysiwyg.css',
       'stylesSet' => 'Brødtekst=p
@@ -68,7 +66,7 @@ Overskrift - stor=h4
 Overskrift - middel=h5
 Overskrift - lille=h6',
       'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
-      'advanced__active_tab' => 'edit-basic',
+      'advanced__active_tab' => 'edit-paste',
       'forcePasteAsPlainText' => 1,
     ),
   );

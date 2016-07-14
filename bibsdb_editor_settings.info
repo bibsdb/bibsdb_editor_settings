@@ -12,4 +12,4 @@ features[filter][] = html
 features[user_permission][] = access ckeditor link
 features[user_permission][] = use text format html
 features[wysiwyg][] = html
-mtime = 1440056296
+mtime = 1468478772
