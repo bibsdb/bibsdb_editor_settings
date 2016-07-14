@@ -13,7 +13,12 @@ function bibsdb_editor_settings_user_default_permissions() {
   // Exported permission: 'access ckeditor link'.
   $permissions['access ckeditor link'] = array(
     'name' => 'access ckeditor link',
-    'roles' => array(),
+    'roles' => array(
+      'administrators' => 'administrators',
+      'editor' => 'editor',
+      'local administrator' => 'local administrator',
+      'local editor' => 'local editor',
+    ),
     'module' => 'ckeditor_link',
   );
 
