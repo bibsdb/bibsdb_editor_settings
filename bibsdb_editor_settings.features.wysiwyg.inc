@@ -62,11 +62,11 @@ function bibsdb_editor_settings_wysiwyg_default_profiles() {
       'css_setting' => 'self',
       'css_path' => '/profiles/ding2/themes/ddbasic/css/ddbasic.wysiwyg.css',
       'stylesSet' => 'Brødtekst=p
-Overskrift - stor=h4
-Overskrift - middel=h5
-Overskrift - lille=h6',
+Overskrift - stor=h2
+Overskrift - lille=h3
+',
       'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
-      'advanced__active_tab' => 'edit-paste',
+      'advanced__active_tab' => 'edit-css',
       'forcePasteAsPlainText' => 1,
     ),
   );
