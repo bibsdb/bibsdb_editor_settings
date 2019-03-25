@@ -10,15 +10,11 @@
 function bibsdb_editor_settings_wysiwyg_default_profiles() {
   $profiles = array();
 
-  // Exported profile: html
+  // Exported profile: html.
   $profiles['html'] = array(
     'format' => 'html',
     'editor' => 'ckeditor',
     'settings' => array(
-      'default' => 1,
-      'user_choose' => 0,
-      'show_toggle' => 1,
-      'add_to_summaries' => 1,
       'theme' => 'advanced',
       'language' => 'da',
       'buttons' => array(
@@ -69,6 +65,14 @@ Overskrift - lille=h3
       'advanced__active_tab' => 'edit-css',
       'forcePasteAsPlainText' => 1,
     ),
+    'preferences' => array(
+      'add_to_summaries' => 1,
+      'default' => 1,
+      'show_toggle' => 1,
+      'user_choose' => 0,
+      'version' => '4.9.2.95e5d83',
+    ),
+    'name' => 'formathtml',
   );
 
   return $profiles;

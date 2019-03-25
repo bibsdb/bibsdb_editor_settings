@@ -16,7 +16,7 @@ function bibsdb_editor_settings_filter_default_formats() {
     'name' => 'Bibsdb',
     'cache' => 1,
     'status' => 1,
-    'weight' => 0,
+    'weight' => -9,
     'filters' => array(
       'media_filter' => array(
         'weight' => -47,
